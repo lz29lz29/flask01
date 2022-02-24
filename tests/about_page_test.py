@@ -4,4 +4,4 @@
 def test_request_example(client):
     """This makes the index page"""
     response = client.get("/about")
-    assert b"Risus commodo viverra" in response.data
+    assert b"Rhoncus urna neque viverra" in response.data
